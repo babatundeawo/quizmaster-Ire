@@ -71,7 +71,9 @@ button {
   font-size: 1rem;
   margin: 8px;
   cursor: pointer;
-  transition: background-color 0.2s, transform 0.1s;
+  transition:
+    background-color 0.2s,
+    transform 0.1s;
 }
 
 button:hover {
@@ -116,6 +118,17 @@ button:active {
 footer {
   padding: 16px;
   font-size: 0.8rem;
+}
+
+.question-meta {
+  color: #777;
+  font-size: 0.85rem;
+  margin-bottom: 8px;
+}
+
+#question-text {
+  font-size: 1.2rem;
+  font-weight: bold;
 }
 
 /* Bigger screens */
